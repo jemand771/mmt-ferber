@@ -3,6 +3,6 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 tasks:
-  - init: python -m pip install -r requirements.txt
-  - init: sudo apt update && sudo apt install -y --no-install-recommends ffmpeg libsm6 libxext6
+  - before: python -m pip install -r requirements.txt
+  - before: sudo apt update && sudo apt install -y --no-install-recommends ffmpeg libsm6 libxext6
 
