@@ -4,5 +4,5 @@
 
 tasks:
   - init: python -m pip install -r requirements.txt
-  - init: sudo apt update && sudo install -y --no-install-recommends ffmpeg libsm6 libxext6
+  - init: sudo apt update && sudo apt install -y --no-install-recommends ffmpeg libsm6 libxext6
 
